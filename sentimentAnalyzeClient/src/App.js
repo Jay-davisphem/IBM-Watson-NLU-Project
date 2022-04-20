@@ -67,7 +67,7 @@ class App extends React.Component {
           default:
             color = "yellow";
         }
-        output = <div style={{ color: color, fontSize: 20, background: 'black' }}>{output}</div>;
+        output = <div style={{ color: color, fontSize: 20, background: 'rgb(35, 39, 43)', width: '40%', marginLeft: '30%'}}>{output}</div>;
         this.setState({ sentimentOutput: output });
       });
     });
